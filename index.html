@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h3 class="title1">Lortem ipsum</h3>
+            <input class="eng" type="text" name="engLetters">
+            <h3 class="title2">Lortem ipsum</h3>
+            <div class="dropdown">
+                <div class="field"></div>
+                    <div class="message">
+                        <ul>
+                            <li data="first">"But I must explain to you how all this mistaken idea of denouncing pleasure
+                                and praising pain was born and  I will give you a complete account of the
+                                system and expound actual teachings of the great explorer of the truth the
+                                master builder of human happiness.
+                            </li>
+                            <li data="second">No one rejects dislikes or avoids pleasure itself because it is pleasure,
+                                but because those who don`t know how to pursue pleasure rationally encounter
+                                consequences that are.
+                            </li>
+                        </ul>
+                    </div>
+
+            </div>
+            <h3 class="title3">Lortem ipsum</h3>
+            <div class="options">
+                <p><input type="radio" name="message" value="1" id="first">
+                    <label for="first">But I must explain to you how all this mistaken idea
+                        of denouncing pleasure and praising pain was born and  I will</label></p>
+                <p><input type="radio" name="message" value="1" id="second">
+                    <label for="second">No one rejects dislikes or avoids pleasure itself because it is pleasure,
+                        but because those who don`t know how to pursue pleasure rationally encounter
+                        consequences that</label></p>
+            </div>
+            <button type="submit">submit</button>
+        </div>
+        <div class="popup">
+            <div class="popup-content">
+                <h1 class="title4">оцените наш сервис</h1>
+                <input type="number" class="mark">
+                <h6>Введите значение</h6>
+                <input type="range" min='1' max='10' value='1' step='1' class="steps"/>
+                <span class="min">1</span>
+                <span class="max">10</span>
+                <div class="error-message">
+                    <p>Вы ввели недопустимое значение.<br>Оцените сервис по шкале от 1 до 10 баллов.</p>
+                </div>
+                <div class="thanks">
+                    <h2 class="title5">спасибо!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
